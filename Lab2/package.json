@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "tsnd --respawn Bai3.ts"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
