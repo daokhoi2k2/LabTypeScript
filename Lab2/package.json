@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "dev": "tsnd --respawn Bai3.ts"
+    "dev": "tsnd --respawn shuffle.ts"
   },
   "dependencies": {
-    "ts-node-dev": "^1.1.8"
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
   }
 }
