@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "removeComments": true,
+        "outDir": "dist",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }
+}
