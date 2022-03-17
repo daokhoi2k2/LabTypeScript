@@ -7,7 +7,9 @@
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
-    "dev": "tsnd --respawn Bai2/index.ts",
+    "dev": "tsnd --respawn Bai1/Test.ts",
+    "dev2": "tsnd --respawn Bai2/index.ts",
+    "dev3": "tsnd --respawn LEARNING_TYPESCRIPT/src/app.ts",
     "build": "webpack"
   }
 }

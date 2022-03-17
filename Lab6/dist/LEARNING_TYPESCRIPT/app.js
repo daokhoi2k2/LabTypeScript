@@ -15,6 +15,7 @@ function PositiveNumber(target, propName) {
     registeredValidators[target.constructor.name] = Object.assign(Object.assign({}, registeredValidators[target.constructor.name]), { [propName]: ["positive"] });
 }
 function validate(obj) {
+    console.log(registeredValidators[obj.constructor.name]);
     const objValidatorConfig = registeredValidators[obj.constructor.name];
     if (!objValidatorConfig) {
         return true;
@@ -47,6 +48,5 @@ const courseForm = document.querySelector("#btn");
 courseForm === null || courseForm === void 0 ? void 0 : courseForm.addEventListener("click", (e) => {
     const titleEl = document.querySelector("#title");
     const course = new Course(titleEl.value);
-    if (!validate(course))
-        alert("Vui lòng nhập vào tên");
+    validate(course);
 });

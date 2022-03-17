@@ -1,0 +1,11 @@
+#list {
+    display: none;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

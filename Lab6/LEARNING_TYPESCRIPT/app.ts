@@ -19,6 +19,7 @@ function PositiveNumber(target: any, propName: string) {
 }
 
 function validate(obj: any) {
+    console.log(registeredValidators[obj.constructor.name]);
     const objValidatorConfig = registeredValidators[obj.constructor.name];
 
     if(!objValidatorConfig) {
@@ -60,5 +61,6 @@ courseForm?.addEventListener("click", (e) => {
     
     const course = new Course(titleEl.value);
 
-    if(!validate(course)) alert("Vui lòng nhập vào tên"); 
+    validate(course)
+    // if(!validate(course)) alert("Vui lòng nhập vào tên"); 
 })

@@ -1,0 +1,48 @@
+.product-item img{
+    width: 100%;
+}
+
+.product-item {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.product-item#banner {
+    display: flex;
+    background-image: url("https://phuclong.com.vn/images/icons/icon_hotproduct.png");
+}
+
+
+.product-item#banner img{
+    width: 65%;
+    order: 1;
+}
+
+.product-item#banner div {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.product-item h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.product-item p {
+    width: 100%;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.product-item button {
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border:2px solid green;
+    color: green;
+    font-size: 15px;
+}
